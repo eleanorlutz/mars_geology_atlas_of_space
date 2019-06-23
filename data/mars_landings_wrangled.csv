@@ -1,0 +1,16 @@
+name,year,NS,EW,color
+Mars 3,1971,-45,202.0,#af2d49
+Mars 2,1971,-45,47.0,#af2d49
+Mars 6,1974,-23.9,-19.42,#af2d49
+Viking 2,1976,47.64,-225.71,#af2d49
+Viking 1,1976,22.27,-47.95,#af2d49
+Mars Pathfinder and Sojourner,1997,19.13,-33.22,#a2a9b3
+Mars Polar Lander,1999,-76,-195.0,#a2a9b3
+Deep Space 2,1999,-73,-210.0,#a2a9b3
+Beagle 2,2003,11.5265,90.4295,#e2d9c0
+Opportunity,2004,-1.9462,354.4734,#e2d9c0
+Spirit,2004,-14.5684,175.472636,#e2d9c0
+Phoenix,2008,68.22,-125.7,#e2d9c0
+Curiosity,2012,-4.5895,137.4417,#63665b
+Schiaparelli EDM lander,2016,-2.05,-6.21,#63665b
+InSight,2018,4.5024,135.6234,#63665b

@@ -1,0 +1,207 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Kenneth L. Tanaka, U.S. Geological Survey, Geologist
+      Publication_Date: 2014
+      Title: Geologic Map of Mars, 20M (SIM 3292)
+      Edition: 1
+      Geospatial_Data_Presentation_Form: map
+      Series_Information:
+        Series_Name: U.S. Geological Survey Scientific Investigations Map
+        Issue_Identification: SIM 3292
+      Other_Citation_Details: http://pubs.usgs.gov/sim/3292
+  Description:
+    Abstract: This new global geologic map of Mars, which records the distribution of geologic units and landforms on the planets surface through time, is based on unprecedented variety, quality, and quantity of remotely sensed data acquired since the Viking Orbiters. These data have provided morphologic, topographic, spectral, thermophysical, radar sounding, and other observations for integration, analysis, and interpretation in support of geologic mapping. In particular, the precise topographic mapping now available has enabled consistent morphologic portrayal of the surface for global mapping (whereas previously used visual-range image bases were less effective, because they combined morphologic and albedo information and, locally, atmospheric haze). Also, thermal infrared image bases used for the new map tended to be less affected by atmospheric haze and thus are reliable for analysis of surface morphology and texture at even higher resolution than the topographic products.
+    Purpose: To produce an up-to-date global geologic map for Mars using modern bases including the Mars Global Surveyor (MGS) Mars Orbiter Laser Altimeter (MOLA) digital elevation model (DEM) (463 m/pixel resolution at lower latitudes to 115 m/pixel near the poles) (Smith and others, 2001) and the Mars Odyssey (ODY) Thermal Emission Imaging System (THEMIS) daytime infrared (IR) image mosaic (100 m/pixel) (Christensen and others, 2004).
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -180.0
+      East_Bounding_Coordinate: 180.0
+      North_Bounding_Coordinate: 90.0
+      South_Bounding_Coordinate: -90.0
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: NASA
+      Theme_Keyword: Geology, Structure, Scientific Investigations Map, Contacts, Craters, Nomenclature
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Categories
+      Theme_Keyword: geoscientificInformation
+      Theme_Keyword: structure
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Mars, Global
+    Temporal:
+      Temporal_Keyword_Thesaurus: None
+      Temporal_Keyword: Early, Middle, and Late Noachian; Early and Late Hesperian; and Early, Middle, and Late Amazonian
+  Access_Constraints: None
+  Use_Constraints: please cite authors.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: James A. Skinner Jr.
+      Contact_Position: Geologist
+      Contact_Address:
+        Address_Type: physical
+        Address: 2255 North Gemini Drive
+        City: Flagstaff
+        State_or_Province: AZ
+        Postal_Code: 86001
+        Country: US
+      Contact_Voice_Telephone: 928-556-7100
+      Contact_Electronic_Mail_Address: jskinner@usgs.gov
+  Data_Set_Credit: Reference: K.L. Tanaka, J.A. Skinner, Jr., J.M. Dohm, R.P. Irwin, III, E.J. Kolb, C.M. Fortezzo, Thomas Platz, G.G. Michael, and T.M. Hare, 2014, Geologic Map of Mars, Scale 1:20,000,000, U.S. Geological Survey Scientific Investigations Map SIM 3292. URL: http://pubs.usgs.gov/sim/3292
+  Security_Information:
+    Security_Classification_System: none
+    Security_Classification: Unclassified
+    Security_Handling_Description: none
+  Native_Data_Set_Environment: Esri ArcGIS 10.0
+Data_Quality_Information:
+  Logical_Consistency_Report: For the digital product presented herein, we used Mars Orbiter Laser Altimeter (MOLA) dataset to register the geologic map. The average accuracy of each point is originally ~100 meters in horizontal position and ~1 meter in radius (Neumann and others, 2003). However, the total elevation uncertainty is at least ±3 m due to the global error in the areoid (±1.8 meters) and regional uncertainties in its shape. The digital lines were drawn at approximately 1:2M scale.
+  Completeness_Report: Geologic layers are horizontally tied to MOLA at a 1:20M scale. MOLA is horizontally accurate to  the surface of Mars at 100 meters. Information has been obtained from sources believed to be reliable, but its accuracy and completeness and the opinions based thereon, are not guaranteed. As every effort is made to provide accurate information in this database, USGS would appreciate it if users could call to our attention any errors that may occur by communicating with the contact person.
+  Lineage:
+    Source_Scale_Denominator: 463
+    Type_of_Source_Media: onLine
+    Source_Citation_Abbreviation: Mars Orbiter Laser AltimeterExperiment summary after the first year of global mapping of Mars
+    Source_Contribution: The MOLA-derived shaded relief image used for the base represents more than 600 million single altimeter measurements gathered between 1999 and 2001, adjusted for consistency and converted to planetary radii values. Using these values, elevations above the areoid were determined from the Martian gravity field solution GMM-2B (Lemoine and others, 2001). The average accuracy of each point is originally ~100 m in horizontal position and ~1 m in radius (Neumann and others, 2001). However, the total elevation uncertainty is at least ±3 m due to the global error in the areoid (±1.8 m) and regional uncertainties in its shape. The measurements were converted into a digital elevation model (DEM) using Generic Mapping Tools software, with a resolution of 128 pixels/degree (or 463 m/pixel at the equator). A shaded relief image was generated from the DEM with a sun angle of 45° from horizontal and a sun azimuth of 335°, as measured clockwise from north. The artificially illuminated MOLA DEM serves as the base for the printed geologic map. To provide a true global view on a single map sheet, Robinson projection was selected at 1:20,000,000 scale. Polar regions (greater than 70° N.) are represented in stereographic projection. The printed map scale forms the basis for determining the digital mapping parameters and the minimum size of mappable features, as discussed in the Mapping Methods section. see SIM 3292 Pamphlet.
+    Source_Information:
+      Source_Citation:
+        Source_Scale_Denominator: 100
+        Citation_Information:
+          Publication_Date: 20021206
+          Title: The Thermal Emission Imaging System (THEMIS) for the Mars 2001 Odyssey mission
+          Edition: 1
+          Geospatial_Data_Presentation_Form: document
+          Series_Information:
+            Series_Name: Space Science Reviews
+            Issue_Identification: 110
+          Online_Linkage: http://www.mars.asu.edu/christensen/docs/christensen_themis_ssr.pdf
+      Type_of_Source_Media: onLine
+      Source_Citation_Abbreviation: The Thermal Emission Imaging System (THEMIS) for the Mars 2001 Odyssey mission
+      Source_Contribution: The THEMIS daytime and nighttime IR 100 m/pixel global mosaics (version 11; credit: Christensen, P.R., N.S. Gorelick, G.L. Mehall, and K.C. Murray, THEMIS Public Data Releases, Planetary Data System node, Arizona State University, http://themis-data.asu.edu) represent thermal infrared energy emitted in nine wavelength bands, which relate to the temperature and emissivity of the surface (Christensen and others, 2004; Edwards and others, 2011). see SIM 3292 Pamphlet.
+    Process_Step:
+      Process_Description: We used the Environmental Systems Research Institute, Inc. (Redlands, CA) ArcGIS software package to co-register and analyze available datasets. Simple Cylindrical versions of MOLA and THEMIS IR mapping bases were created in lossless GeoJPEG2000 format. For consistency and legibility at map scale, we defined drafting parameters within our digital GIS environment. First, the vertex spacing of drafted linework was set at 5 km (i.e., 4 vertices per millimeter at 1:20,000,000 scale), which provides sufficient detail and curve rounding when a smoothing algorithm is applied to the linework. We drafted linework while viewing the map base data at 1:5,000,000 scale to ensure sufficient accuracy at print scale. The minimum line feature length is 100 km, and the minimum outcrop dimensions are 40 km wide by 100 km long for legibility. Given differences between drafting and production scales, we avoided mapping narrow outcrops using parameters consistent with our minimum width specifications. Minimum spacing between linework, including both contacts and other line features, is 40 km. However, we exercised some flexibility in the size and spacing cutoffs in order to represent critical geologic and stratigraphic relationships, including some narrow wall rock outcrops of Valles Marineris. Also, we generalized some segmented, en echelon grabens that were too short to map as single segments by mapping them as single collective features to show the occurrence of particular structural fabrics. see SIM 3292 Pamphlet.
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 64
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 153
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 1057
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 1312
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Composite object
+      Point_and_Vector_Object_Count: 9
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 145
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 145
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 3593
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 94
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 268
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Robinson
+        Robinson:
+          Longitude_of_Projection_Center: 0.0
+          False_Easting: 0.0
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.0001
+          Ordinate_Resolution: 0.0001
+        Planar_Distance_Units: meter
+    Geodetic_Model:
+      Horizontal_Datum_Name: D Mars 2000 Sphere
+      Ellipsoid_Name: Mars 2000 Sphere IAU IAG
+      Semi-major_Axis: 3396190.0
+      Denominator_of_Flattening_Ratio: 0.0
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: SIM3292_Global_Geology
+      Entity_Type_Definition: Polygon feature class, geologic unit polygon feature class.  Contains a Unit field denoting the unit name and UnitDesc the short unit decription. SphArea_km is the geodesic area of the polygon in km^2
+      Entity_Type_Definition_Source: USGS
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: SIM3292_Global_Contacts
+      Entity_Type_Definition: Line feature class, contains a ConType field for the geologic unit and map boundaries including symbol types: Certain, Approximate, Border, and Internal.
+      Entity_Type_Definition_Source: USGS
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: SIM3292_Global_Structure
+      Entity_Type_Definition: Structural layer. Contains a Morphology field denoting the structure type including Origin, Interpretation, and Preservation.
+      Entity_Type_Definition_Source: USGS
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: USGS publications group
+      Contact_Address:
+        Address_Type: mailing
+        Address: 25286 Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225
+      Contact_Voice_Telephone: 928-556-7100
+      Contact_Electronic_Mail_Address: thare@usgs,gov
+  Distribution_Liability: None
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://pubs.usgs.gov/sim/3292
+    Fees: None
+    Ordering_Instructions: Digital download using a web browser
+  Available_Time_Period:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20140714
+Metadata_Reference_Information:
+  Metadata_Date: 20140512
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: Trent Hare
+      Contact_Position: Cartographer
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 2255 North Gemini Drive
+        City: Flagstaff
+        State_or_Province: AZ
+        Postal_Code: 86001
+        Country: US
+      Contact_Voice_Telephone: 928-556-7126
+      Contact_Electronic_Mail_Address: thare@usgs.gov
+      Contact_Instructions: please email
+  Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Use_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Classification: Unclassified

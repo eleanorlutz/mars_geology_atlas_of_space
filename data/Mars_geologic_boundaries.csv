@@ -1,0 +1,18 @@
+type,color
+Certain,k
+Border,r
+Internal,g
+Approx,b
+Graben axis,#4e2737
+Lobate flow,#c8443c
+Spiral trough,#106f78
+Crater rim,k
+Scarp,r
+Ridge,g
+Pit crater chain,b
+Outflow Channel,c
+Wrinkle ridge,y
+Channel axis,m
+Yardangs,orange
+Caldera rim,teal
+Rille,lightsalmon

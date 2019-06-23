@@ -1,0 +1,282 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Kenneth L. Tanaka, U.S. Geological Survey, Geologist</origin>
+        <pubdate>20140714</pubdate>
+        <title>Geologic Map of Mars, 20M (SIM 3292)</title>
+        <edition>1</edition>
+        <geoform>map</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Scientific Investigations Map</sername>
+          <issue>SIM 3292</issue>
+        </serinfo>
+        <othercit>http://pubs.usgs.gov/sim/3292</othercit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This new global geologic map of Mars, which records the distribution of geologic units and landforms on the planet’s surface through time, is based on unprecedented variety, quality, and quantity of remotely sensed data acquired since the Viking Orbiters. These data have provided morphologic, topographic, spectral, thermophysical, radar sounding, and other observations for integration, analysis, and interpretation in support of geologic mapping. In particular, the precise topographic mapping now available has enabled consistent morphologic portrayal of the surface for global mapping (whereas previously used visual-range image bases were less effective, because they combined morphologic and albedo information and, locally, atmospheric haze). Also, thermal infrared image bases used for the new map tended to be less affected by atmospheric haze and thus are reliable for analysis of surface morphology and texture at even higher resolution than the topographic products.</abstract>
+      <purpose>To produce an up-to-date global geologic map for Mars using modern bases including the Mars Global Surveyor (MGS) Mars Orbiter Laser Altimeter (MOLA) digital elevation model (DEM) (463 m/pixel resolution at lower latitudes to 115 m/pixel near the poles) (Smith and others, 2001) and the Mars Odyssey (ODY) Thermal Emission Imaging System (THEMIS) daytime infrared (IR) image mosaic (100 m/pixel) (Christensen and others, 2004).</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180.0</westbc>
+        <eastbc>180.0</eastbc>
+        <northbc>90.0</northbc>
+        <southbc>-90.0</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>NASA</themekt>
+        <themekey>Geology, Structure, Scientific Investigations Map, Contacts, Craters, Nomenclature</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Mars, Global</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>Early, Middle, and Late Noachian; Early and Late Hesperian; and Early, Middle, and Late Amazonian</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>please cite authors.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>James A. Skinner Jr.</cntper>
+        </cntorgp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>2255 North Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>928-556-7100</cntvoice>
+        <cntemail>jskinner@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Reference: K.L. Tanaka, J.A. Skinner, Jr., J.M. Dohm, R.P. Irwin, III, E.J. Kolb, C.M. Fortezzo, Thomas Platz, G.G. Michael, and T.M. Hare, 2014, Geologic Map of Mars, Scale 1:20,000,000, U.S. Geological Survey Scientific Investigations Map SIM 3292. URL: http://pubs.usgs.gov/sim/3292</datacred>
+    <secinfo>
+      <secsys>none</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>none</sechandl>
+    </secinfo>
+    <native>Esri ArcGIS 10.0</native>
+  </idinfo>
+  <dataqual>
+    <logic>For the digital product presented herein, we used Mars Orbiter Laser Altimeter (MOLA) dataset to register the geologic map. The average accuracy of each point is originally ~100 meters in horizontal position and ~1 meter in radius (Neumann and others, 2003). However, the total elevation uncertainty is at least ±3 m due to the global error in the areoid (±1.8 meters) and regional uncertainties in its shape. The digital lines were drawn at approximately 1:2M scale.</logic>
+    <complete>Geologic layers are horizontally tied to MOLA at a 1:20M scale. MOLA is horizontally accurate to  the surface of Mars at 100 meters. Information has been obtained from sources believed to be reliable, but its accuracy and completeness and the opinions based thereon, are not guaranteed. As every effort is made to provide accurate information in this database, USGS would appreciate it if users could call to our attention any errors that may occur by communicating with the contact person.</complete>
+    <lineage>
+      <srcscale>463</srcscale>
+        <typesrc>onLine</typesrc>
+        <srccitea>Mars Orbiter Laser Altimeter—Experiment summary after the first year of global mapping of Mars</srccitea>
+        <srccontr>The MOLA-derived shaded relief image used for the base represents more than 600 million single altimeter measurements gathered between 1999 and 2001, adjusted for consistency and converted to planetary radii values. Using these values, elevations above the areoid were determined from the Martian gravity field solution GMM-2B (Lemoine and others, 2001). The average accuracy of each point is originally ~100 m in horizontal position and ~1 m in radius (Neumann and others, 2001). However, the total elevation uncertainty is at least ±3 m due to the global error in the areoid (±1.8 m) and regional uncertainties in its shape. The measurements were converted into a digital elevation model (DEM) using Generic Mapping Tools software, with a resolution of 128 pixels/degree (or 463 m/pixel at the equator). A shaded relief image was generated from the DEM with a sun angle of 45° from horizontal and a sun azimuth of 335°, as measured clockwise from north. The artificially illuminated MOLA DEM serves as the base for the printed geologic map. To provide a true global view on a single map sheet, Robinson projection was selected at 1:20,000,000 scale. Polar regions (greater than 70° N.) are represented in stereographic projection. The printed map scale forms the basis for determining the digital mapping parameters and the minimum size of mappable features, as discussed in the Mapping Methods section. see SIM 3292 Pamphlet.
+</srccontr>
+      <srcinfo>
+        <srccite>
+          <srcscale>100</srcscale>
+          <citeinfo>
+            <pubdate>20021206</pubdate>
+            <title>The Thermal Emission Imaging System (THEMIS) for the Mars 2001 Odyssey mission</title>
+            <edition>1</edition>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Space Science Reviews</sername>
+              <issue>110</issue>
+            </serinfo>
+            <onlink>http://www.mars.asu.edu/christensen/docs/christensen_themis_ssr.pdf</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srccitea>The Thermal Emission Imaging System (THEMIS) for the Mars 2001 Odyssey mission</srccitea>
+        <srccontr>The THEMIS daytime and nighttime IR 100 m/pixel global mosaics (version 11; credit: Christensen, P.R., N.S. Gorelick, G.L. Mehall, and K.C. Murray, THEMIS Public Data Releases, Planetary Data System node, Arizona State University, http://themis-data.asu.edu) represent thermal infrared energy emitted in nine wavelength bands, which relate to the temperature and emissivity of the surface (Christensen and others, 2004; Edwards and others, 2011). see SIM 3292 Pamphlet.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>We used the Environmental Systems Research Institute, Inc. (Redlands, CA) ArcGIS software package to co-register and analyze available datasets. Simple Cylindrical versions of MOLA and THEMIS IR mapping bases were created in lossless GeoJPEG2000 format. For consistency and legibility at map scale, we defined drafting parameters within our digital GIS environment. First, the vertex spacing of drafted linework was set at 5 km (i.e., 4 vertices per millimeter at 1:20,000,000 scale), which provides sufficient detail and curve rounding when a smoothing algorithm is applied to the linework. We drafted linework while viewing the map base data at 1:5,000,000 scale to ensure sufficient accuracy at print scale. The minimum line feature length is 100 km, and the minimum outcrop dimensions are 40 km wide by 100 km long for legibility. Given differences between drafting and production scales, we avoided mapping narrow outcrops using parameters consistent with our minimum width specifications. Minimum spacing between linework, including both contacts and other line features, is 40 km. However, we exercised some flexibility in the size and spacing cutoffs in order to represent critical geologic and stratigraphic relationships, including some narrow wall rock outcrops of Valles Marineris. Also, we generalized some segmented, en echelon grabens that were too short to map as single segments by mapping them as single collective features to show the occurrence of particular structural fabrics. see SIM 3292 Pamphlet.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>64</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>153</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1057</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1312</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Composite object</sdtstype>
+        <ptvctcnt>9</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>145</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>145</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>3593</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>94</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>268</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Robinson</mapprojn>
+          <robinson>
+            <longpc>0.0</longpc>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </robinson>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D Mars 2000 Sphere</horizdn>
+        <ellips>Mars 2000 Sphere IAU IAG</ellips>
+        <semiaxis>3396190.0</semiaxis>
+        <denflat>0.0</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SIM3292_Global_Geology</enttypl>
+        <enttypd>Polygon feature class, geologic unit polygon feature class.  Contains a “Unit” field denoting the unit name and “UnitDesc” the short unit decription. “SphArea_km” is the geodesic area of the polygon in km^2</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SIM3292_Global_Contacts</enttypl>
+        <enttypd>Line feature class, contains a “ConType” field for the geologic unit and map boundaries including symbol types: Certain, Approximate, Border, and Internal.</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SIM3292_Global_Structure</enttypl>
+        <enttypd>Structural layer. Contains a “Morphology” field denoting the structure type including “Origin”, “Interpretation”, and “Preservation”.</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>USGS publications group</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>25286 Federal Center</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>928-556-7100</cntvoice>
+        <cntemail>thare@usgs,gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>None</distliab>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pubs.usgs.gov/sim/3292</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+      <ordering>Digital download using a web browser</ordering>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140714</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20140512</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Trent Hare</cntper>
+        </cntorgp>
+        <cntpos>Cartographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2255 North Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>928-556-7126</cntvoice>
+        <cntemail>thare@usgs.gov</cntemail>
+        <cntinst>please email</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>None</metuc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

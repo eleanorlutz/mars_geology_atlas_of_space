@@ -1,0 +1,45 @@
+name,name_actual,unit_type,color,description
+MAL,mAl,lowland,#b9c2a8,Middle Amazonian lowland unit
+LHL,lHl,lowland,#e4e8d3,Late Hesperian lowland unit
+AHI,AHi,impact,#ffeb33,Amazonian and Hesperian impact unit
+LAPC,lApc,polar,#315c93,Late Amazonian polar cap unit
+LAPD,lApd,polar,#1d729f,Late Amazonian polar dunes unit
+APU,Apu,polar,#308cae,Amazonian polar undivided unit
+AP,Ap,polar,#6cabad,Amazonian polar unit
+HP,Hp,polar,#97c1be,Hesperian polar unit
+HPU,Hpu,polar,#c7d5d6,Hesperian polar undivided unit
+HPE,Hpe,polar,#ebf5f7,Hesperian polar edifice unit
+EAB,eAb,basin,#867b92,Early Amazonian basin unit
+LHB,lHb,basin,#9f7992,Late Hesperian basin unit
+EHB,eHb,basin,#af7c85,Early Hesperian basin unit
+HNB,HNb,basin,#cbaba9,Hesperian and Noachian basin unit
+LAV,lAv,volcanic,#97254A,Late Amazonian volcanic unit
+LAVF,lAvf,volcanic,#A2254E,Late Amazonian volcanic field unit
+AV,Av,volcanic,#AF2351,Amazonian volcanic unit
+AHV,AHv,volcanic,#be2050,Amazonian and Hesperian volcanic unit
+LHV,lHv,volcanic,#d23858,Late Hesperian volcanic unit
+LHVF,lHvf,volcanic,#db565c,Late Hesperian volcanic field unit
+EHV,eHv,volcanic,#ec6e5f,Early Hesperian volcanic unit
+LNV,lNv,volcanic,#f68c65,Late Noachian volcanic unit
+AVE,Ave,volcanic,#f6a67d,Amazonian volcanic edifice
+HVE,Hve,volcanic,#f6b994,Hesperian volcanic edifice unit
+NVE,Nve,volcanic,#f4d2b8,Noachian volcanic edifice unit
+LAA,lAa,apron,#515b50,Late Amazonian apron unit
+AA,Aa,apron,#6d7362,Amazonian apron unit
+ANA,ANa,apron,#8e947f,Amazonian and Noachian apron unit
+AHTU,AHtu,transition,#5f7994,Amazonian and Hesperian transition undivided unit
+HTU,Htu,transition,#8192a7,Hesperian transition undivided unit
+LHT,lHt,transition,#9aa6b6,Late Hesperian transition unit
+EHT,eHt,transition,#b2b9c4,Early Hesperian transition unit
+HT,Htu,transition,#c6c9d0,Hesperian transition unit
+HTO,Hto,transition,#dededf,Hesperian transition outflow unit
+HNT,HNt,transition,#f6f4ef,Hesperian and Noachian transition unit
+HNHU,HNhu,highland,#66422f,Hesperian and Noachian highland undivided unit
+NHU,Nhu,highland,#86583b,Noachian highland undivided unit
+EHH,eHh,highland,#9f6938,Early Hesperian highland unit
+LNH,lNh,highland,#ae7b3b,Late Noachian highland unit
+MNH,mNh,highland,#be9763,Middle Noachian highland unit
+ENH,eNh,highland,#d3bc94,Early Noachian highland unit
+NHE,Nhe,highland,#dfcaa7,Noachian highland edifice unit
+MNHM,mNhm,highland,#e4d3b5,Middle Noachian highland massif unit
+ENHM,eNhm,highland,#f2eadc,Early Noachian highland massif unit
